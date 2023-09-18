@@ -1,0 +1,19 @@
+Game starts at the function run_game().
+Background settings are initialised by pygame.display.set_mode()
+surface returned by display.set_mode()
+
+#An event is an action a user performs while playing the game
+To access the events in a game done by pygame.event.get()
+
+To make the most recently drawn screen visible use of pygame.display.flip()
+
+To initialize the game and start the main loop use run_game()
+
+To fill the screen with the background color use the screen.fill()
+
+#settings.py file cntains all the settings of he game and contains them in one place.
+
+the __init__()method takes 2 parameters; self reference and screen for drawing of the ship
+//n Pygame, the origin (0, 0) is at the top-left corner of the screen, and coordinates 
+increase as you go down and to the right. On a 1200 by 800 screen, the origin is at 
+the top-left corner, and the bottom-right corner has the coordinates (1200, 800).
