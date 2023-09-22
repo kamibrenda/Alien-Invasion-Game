@@ -17,3 +17,12 @@ the __init__()method takes 2 parameters; self reference and screen for drawing o
 //n Pygame, the origin (0, 0) is at the top-left corner of the screen, and coordinates 
 increase as you go down and to the right. On a 1200 by 800 screen, the origin is at 
 the top-left corner, and the bottom-right corner has the coordinates (1200, 800).
+
+To load an image done by pygame.image.load()
+The surface object returned from pygame.image.load() can be used like any other surface:
+
+blitme() method will draw the image to the screen specified by self.rect.
+
+the update_screen() function takes 3 parameters: 1. ai_settings 2.screen 3. ship
+Each keypress is registered as a KEYDOWN event
+
