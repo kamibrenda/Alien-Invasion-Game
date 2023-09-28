@@ -26,3 +26,4 @@ blitme() method will draw the image to the screen specified by self.rect.
 the update_screen() function takes 3 parameters: 1. ai_settings 2.screen 3. ship
 Each keypress is registered as a KEYDOWN event
 
+pygame.keyup and keydown() events together with moving_right will be used to implement continuous motion
