@@ -4,9 +4,10 @@ class Ship():
 
     def __init__(self, ai_settings, screen):
         """Initialize he ship and set its stating position."""
+        pygame.init()      
         self.screen = screen
         self.ai_settings = ai_settings
-
+        
         #Load the ship image and get its rect.
         self.image = pygame.image.load('images/ship.bmp')
         self.rect = self.image.get_rect()
