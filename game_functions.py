@@ -1,7 +1,7 @@
 import sys
 import pygame
 
-def check_keydown_events(event, ship):
+def check_events(ship):
     """Respond to Keypresses and mouse events."""
     for event in pygame.event.get():
         if event.type == pygame.QUIT:

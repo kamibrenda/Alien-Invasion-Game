@@ -6,6 +6,7 @@ from settings import settings
 from ship import Ship
 import game_functions as gf
 
+
 def run_game():
     #initialize pygame, settings and a screen object.
     pygame.init()
