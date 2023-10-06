@@ -30,3 +30,8 @@ pygame.keyup and keydown() events together with moving_right will be used to imp
 
 
 The bullet class inherits from sprite which is imported from the pygame.sprite module.
+
+the value of self.y is set by self.rect.you
+the speed_factor attribute enables the bullets to increase in speed as the game progresses
+
+From the bullet class , we will create a group that will store the live bullets at alien_invasion for management of the live bullets
