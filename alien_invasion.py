@@ -6,6 +6,7 @@ from settings import settings
 from ship import Ship
 import game_functions as gf
 from pygame.sprite import Group
+from bullets import Bullet
 
 
 
@@ -30,7 +31,8 @@ def run_game():
         gf.check_events(ai_settings, screen, ship, bullets)
         ship.update()
 
-        bullets.update()        
+        bullets.update()
+                      
         gf.update_screen(ai_settings, screen, ship, bullets)
 
         #watch for keyboard and mouse events.
